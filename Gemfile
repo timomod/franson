@@ -26,9 +26,16 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 
-# Gems added by Timo
+# Gems added by Timo - for heroku
 gem 'rails_12factor', group: :production
 gem 'puma',           group: :production
+
+# Added by Timo – front-end gems
+gem 'bootstrap-sass', '~> 3.3.5'
+gem 'font-awesome-sass', '~> 4.4.0'
+gem 'simple_form'
+gem "autoprefixer-rails"
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
